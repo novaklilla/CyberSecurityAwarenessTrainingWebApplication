@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/cybersecurity-awareness-training",
+            "outputPath": "dist/cybersecurity-awareness-training/src",
             "baseHref": "cybersecurity-awareness-training",
             "index": "src/index.html",
             "browser": "src/main.ts",

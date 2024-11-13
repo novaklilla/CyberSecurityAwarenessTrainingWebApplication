@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kiberbiztonsági Tudatossági Oktatás</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="main-container">
+        <div class="sidebar">
+            <div class="sidebar-header">
+                <a href="/" class="sidebar-title">
+                    <span class="fs-4">Kiberbiztonsági Tudatossági Oktatás</span>
+                </a>
+                <hr>
+                <ul class="nav nav-pills flex-column mb-auto">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Főoldal</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="training-materials" class="nav-link">Kiberbiztonsági Tudatossági Anyag</a>
+                        <ul class="collapse-nav list-unstyled fw-normal pb-1 small">
+                            <li><a href="training-materials/introduction" class="link-dark">Bevezetés</a></li>
+                            <li><a href="training-materials/fundamentals" class="link-dark">Alapvető biztonsági fogalmak</a></li>
+                            <li><a href="training-materials/threats" class="link-dark">Veszélyforrások és fenyegetések</a></li>
+                            <li><a href="training-materials/work-environment" class="link-dark">Munkakörnyezet biztonsága</a></li>
+                            <li><a href="training-materials/safe-internet-and-email" class="link-dark">Biztonságos internet- és e-mail használat</a></li>
+                            <li><a href="training-materials/mobile-devices" class="link-dark">Mobil eszközök biztonsága</a></li>
+                            <li><a href="training-materials/summary" class="link-dark">Befejezés</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" class="nav-link">Cyber Awareness Tutor</a></li>
+                    <li><a href="research" class="nav-link">Kutatásról</a></li>
+                    <li><a href="about" class="nav-link">Rólam</a></li>
+                </ul>
+                <hr>
+            </div>
+        </div>
+
+        <div class="content">
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+    </body>
+</html>

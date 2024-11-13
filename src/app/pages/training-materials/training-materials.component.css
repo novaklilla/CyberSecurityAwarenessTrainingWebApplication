@@ -1,0 +1,108 @@
+/* Global Reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ecf0f1; /* Light grey background for the entire page */
+    color: #34495e; /* Default text color for readability */
+}
+
+/* Headings */
+h1 {
+    color: #2c3e50;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #2c3e50;
+    font-size: 2.2em;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+h3 {
+    color: #2c3e50;
+    font-size: 1.8em;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+h4 {
+    color: #2c3e50;
+    font-size: 1.5em;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+h5 {
+    color: #2c3e50;
+    font-size: 1.3em;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+/* Paragraphs */
+p {
+    color: #34495e;
+    font-size: 1.2em;
+    line-height: 1.6em;
+    margin-bottom: 20px;
+}
+
+/* Links */
+a {
+    color: #2c3e50;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #34495e; /* Change color on hover */
+}
+
+/* Unordered Lists */
+ul {
+    padding-left: 20px;
+    list-style-type: none;
+    font-size: 1.2em;
+}
+
+/* List Items */
+li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+    position: relative;
+}
+
+li::before {
+    content: "•";
+    color: #2c3e50; /* Dark circle for list items */
+    font-size: 1.2em;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+/* Button Style (For any link-based buttons) */
+.link-button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 1.2em;
+    color: white;
+    background-color: #2c3e50;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-top: 20px;
+}
+
+.link-button:hover {
+    background-color: #34495e;
+    transform: translateY(-3px); /* Slight lift effect */
+}
+
+.link-button:active {
+    transform: translateY(1px); /* Depression effect when clicked */
+}
